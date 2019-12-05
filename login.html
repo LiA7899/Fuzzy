@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		header{
+			height: 80px;
+			background: teal;
+		}
+		section{
+			height: 400px;
+		}
+		.kot1{
+			height: 50px;
+			text-align: center;
+		}
+		tx1{
+			font-size: 45px;
+			font-weight: bold;
+		}
+		tx2{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.kot2{
+			height: 400px;
+			width: 350px;
+			float: left;
+		}
+		/*.kot3{
+			height: 400px;
+			width: 300px;
+			float: left;
+			text-align: center;
+		}*/
+		.kotform{
+			width: 1000px;
+			height: 100px;
+			margin-top: 110px;
+			margin-left: 150px;
+			text-align: center;
+			font:18px arial;
+		}
+		input{
+			height: 23px;
+		}
+		.kot4{
+			height: 400px;
+			width: 361px;
+			float: right;
+		}
+		footer{
+			height: 80px;
+			background: teal;
+		}
+	</style>
+</head>
+<body>
+	<header></header>
+	<div class="kot1">
+	<tx1>Selamat Datang</tx1><br>
+	<tx2>Silahkan Masukkkan Username dan Password</tx2>
+	</div>
+	<section>
+		<form action="connectlogin.php?op=in" method="post">
+	
+	<div class="kot3">
+	<div class="kotform">
+	<b>User Name :</b> &emsp;&nbsp;<input type="text" name="username" size="40" required /><br/><br><br>
+	<b>Password &nbsp;&nbsp;:</b>&emsp;&nbsp;&nbsp;<input type="password" name="password" size="40" required><br/><br>
+	<input type="submit" name="admin" value="Masuk" style="float: right;margin-top: 20px; margin-right: 400px; background: teal; width: 100px; height: 30px;">
+	
+	</div>
+</div>
+
+</section>
+<footer></footer>
+
+</body>
+</html>
