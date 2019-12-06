@@ -1,6 +1,0 @@
-<?php
-include('connect.php');
-if(isset($_POST['back'])){
-	header('location:beranda.php');
-}
-?>
